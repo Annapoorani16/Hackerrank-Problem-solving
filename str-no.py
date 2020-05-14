@@ -14,4 +14,4 @@ try:
         i+=2
 except IndexError:                    #if indexerror occurs
     print(a[i]* int(a[i+1]),end="")
-    pass
+    
